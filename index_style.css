@@ -1,0 +1,299 @@
+/* ------------ Constant ------------ */
+*
+{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+/* ------------ Navigation Bar ------------ */
+.navigation  ul
+{
+    list-style-type: none;
+    margin-right: 20px;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    z-index: 1;
+}
+.navigation  li img
+{
+    width: 10%;
+    float: left;
+    margin-left:100px ;
+    position: fixed;    
+}
+
+.navigation  li a
+{
+    float: right;
+    margin: auto;
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+    padding: 14px 16px;
+    display: block;
+}
+.navigation  li a:hover
+{
+    background-color: #111;
+    color: white;
+}
+
+/* ------------ Home ------------ */
+.home-content img
+{
+    width: 100%;
+}
+.home-content .home
+{
+    padding: 50px;
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+}
+.home-content .home p
+{
+    padding: 20px;
+    margin-bottom: 10px;
+    font-size: 25;
+    line-height: 1.8;
+}
+.home-content .home h1
+{
+    font-size: 70;
+}
+.home-content .home a
+{
+    text-decoration: none;
+    color: white;
+    border:solid 20px transparent ;
+    border-radius: 10px;
+    font-size: 20px;
+    display: inline-block;
+    text-align: center;
+    padding: 5px 10px;
+    background-color: #8e7754;
+    margin-left: 15px;
+}
+.home-content .home a:hover, a:active 
+{
+    background-color: #403d38;
+}
+
+/* ------------ Who We Are? ------------ */
+.informations
+{
+    padding: 50px;
+}
+
+.informations .information-img
+{
+    display: inline-block;
+    width: 39%;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+.informations .information-context
+{
+    display: inline-block;
+    vertical-align: top;
+    width: 55% ;
+    padding: 40px;
+}
+
+.informations .information-context p
+{
+   color: #686868 ; 
+   line-height: 1.8;
+   font-size: 18;
+   margin-bottom: 30px;
+}
+.informations .information-context h1
+{
+    padding-bottom: 30px;
+}
+
+.informations .information-img img
+{
+    width: 100%;
+}
+
+.icons .icon img
+{
+    width: 7%;
+    display: inline-block;
+    vertical-align: middle;
+}
+.icons .icon p
+{
+    display: inline-block;
+    color: #686868;
+}
+.border img
+{
+    border-radius: 50%;
+    border: 1px solid #686868 ;
+}
+
+/* ------------ Our Location ------------ */
+.locations
+{
+    background-color: #F8F8F8;
+    padding: 50px;
+}
+.locations .location-context
+{
+    display: inline-block;
+    width: 50% ;
+    vertical-align: top;
+    margin-bottom:200px ;
+    margin-left: 70px;
+    margin-top: 100px;
+}
+.locations .location-image
+{
+    display: inline-block;
+    width: 39%;
+}
+.locations .location-image img
+{
+    width: 100%;
+    margin-top: 35px;
+}
+.locations .location-context h1 
+{
+    padding: 20px;
+}
+
+.locations .location-context p
+{
+    padding: 20px;
+    color: #686868;
+    line-height: 1.8;
+    font-size: 18;
+}
+
+/* ------------ Our Baking ------------ */
+.bake
+{
+    text-align: center;
+    padding: 50px;
+}
+    
+.bake p
+{
+    color: #686868;
+    line-height: 1.8;
+    margin-bottom: 50px;
+}
+.bake h1
+{
+    margin-bottom: 20px;
+}
+
+.bake .bake-block
+{
+    float: left;
+    width: 30%;
+    margin: 20px;
+}
+.bake .bake-block h1
+{
+    margin-top: 30px;
+}
+.bake .bake-block img
+{
+    width: 100%;
+}
+.clear-fix
+{
+    clear: both;
+}
+
+/* ------------ Contact Information ------------ */
+.contact
+{
+    background-color: #F8F8F8;
+    padding: 50px;
+}
+.contact .contact-context
+{
+    float: left;
+    width: 50%;
+    margin-top: 50px;
+    margin-left: 70px;
+    margin-bottom: 100px;
+}
+.contact .contact-image img
+{
+    float: left;
+    width: 45%;
+}
+.contact .contact-context p
+{
+    color: #686868;
+    margin-bottom: 30px;
+    line-height: 1.8;
+}
+.contact .contact-context h1
+{
+    margin-bottom: 30px;
+}
+
+/* ------------ More Information ------------ */
+.about
+{
+    background-color: #403d38;
+    padding: 50px;
+}
+.about .about-block h2
+{
+    color:white
+}
+.about .about-block p
+{
+    color: #686868;
+    margin: 10px;
+    line-height: 1.8;
+}
+.about .about-block
+{
+    float: left;
+    width: 25%;
+}
+.line
+{
+    border-bottom:solid 0.2px #686868 ;
+    padding-bottom: 10px;
+    width: 90%;
+}
+/* ------------ Final ------------ */
+.final
+{
+    padding: 50px;
+    background-color: #353330;
+    text-align: center;
+    color: #686868;
+}
+
+.final p
+{
+    padding-top: 40px;
+    padding-bottom: 25px;
+} 
+.small-icon img
+{
+    width: 3%;
+    vertical-align: middle;
+    border-radius: 50%;
+    border: 1px solid #686868 ;
+    padding-right: 2px;
+    background-color:#403d38 ;
+}
